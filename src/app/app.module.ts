@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 import { CoreModule } from './core/core.module';
 import { MaterialModule } from './material/material.module';
@@ -28,6 +29,7 @@ import { SharedModule } from './shared/shared.module';
     MaterialModule,
     BrowserModule,
     BrowserAnimationsModule,
+    // TranslateModule.forRoot(),
   ],
 })
 export class AppModule {}
